@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from keras import layers, optimizers, losses, metrics, Model
 from PIL import Image
-from sklearn import preprocessing as pre
 
 
 # Construct the discriminator.
