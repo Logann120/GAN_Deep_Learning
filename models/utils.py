@@ -188,20 +188,3 @@ def show_gif(gif_path):
 
 def show_mp4(mp4_path):
     os.startfile(mp4_path)
-
-
-def broken_glass(img):
-    import numpy as np
-    import cv2
-
-    c, h, w = img.shape
-    glass = img.numpy().transpose(1, 2, 0)
-    h_start = 0
-    s = h - 10
-    w_start = 0
-    ss = w - 10
-    for i in range(10, h, 10):
-        for j in range(10, w, 10):
-            if np.random.rand() > 0.3:
-                glass[h_start:i, w_start:j, 0] = img[0, s:h, ss:w - j]
-    return glass

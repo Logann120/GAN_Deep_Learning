@@ -199,5 +199,5 @@ if __name__ == '__main__':
             plt.show()
         """
     else:
-        model_path = "C:\\Users\\ltnoo\\Documents\\GitHub\\GAN_Deep_Learning\\saved_models\\generator9200.th"
+        model_path = " "
         visualize_model(model_path, 100)
