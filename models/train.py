@@ -199,5 +199,5 @@ if __name__ == '__main__':
             plt.show()
         """
     else:
-        model_path = " "
+        model_path = opt.model
         visualize_model(model_path, 100)
