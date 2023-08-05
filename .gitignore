@@ -1,2 +1,7 @@
 
 training_output.mp4
+__pycache__
+*.vscode
+*.mypy_cache
+*.pyc
+*.ipynb_checkpoints
